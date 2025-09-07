@@ -13,6 +13,7 @@
 		A9F5D6002E6D675E00842915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F5D5FE2E6D675E00842915 /* Main.storyboard */; };
 		A9F5D6022E6D676000842915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F5D6012E6D676000842915 /* Assets.xcassets */; };
 		A9F5D6052E6D676000842915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F5D6032E6D676000842915 /* LaunchScreen.storyboard */; };
+		A9F5D60D2E6D6B4300842915 /* LifecycleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F5D60C2E6D6B4300842915 /* LifecycleLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A9F5D6012E6D676000842915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9F5D6042E6D676000842915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9F5D6062E6D676000842915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F5D60C2E6D6B4300842915 /* LifecycleLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifecycleLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A9F5D5F82E6D675E00842915 /* AppDelegate.swift */,
 				A9F5D5FA2E6D675E00842915 /* SceneDelegate.swift */,
 				A9F5D5FC2E6D675E00842915 /* ViewController.swift */,
+				A9F5D60C2E6D6B4300842915 /* LifecycleLogger.swift */,
 				A9F5D5FE2E6D675E00842915 /* Main.storyboard */,
 				A9F5D6012E6D676000842915 /* Assets.xcassets */,
 				A9F5D6032E6D676000842915 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F5D60D2E6D6B4300842915 /* LifecycleLogger.swift in Sources */,
 				A9F5D5FD2E6D675E00842915 /* ViewController.swift in Sources */,
 				A9F5D5F92E6D675E00842915 /* AppDelegate.swift in Sources */,
 				A9F5D5FB2E6D675E00842915 /* SceneDelegate.swift in Sources */,
